@@ -39,7 +39,7 @@ This was done by looping through each category page, the through each sub-page t
 
 After product URLs were obtained, requests were sentt to access those URLs to obtain product description, also in a JSON object. Next iteration should include sizes that are currently a bit more tricky to extract and analyze as they are not contained in the JSON object, but rather under <option> tags and come in several different formats.
 
-
+Extracted data was stored in a list of list format and saved in a .pickle file for further processing and analysis.
 
 
 
